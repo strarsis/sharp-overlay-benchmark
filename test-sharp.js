@@ -10,8 +10,6 @@ var Promise             = require('bluebird'),
 
     Benchmark           = require('benchmark');
 
-Promise.promisifyAll(sharp.prototype, {multiArgs: true});
-
 
 var inputDir = './input',
     tWidth   = 450,
