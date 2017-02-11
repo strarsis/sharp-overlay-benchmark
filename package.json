@@ -4,7 +4,7 @@
     "bluebird": "^3.4.6",
     "canvas": "^1.5.0",
     "glob": "^7.0.6",
-    "sharp": "^0.16.0",
+    "sharp": "github:lovell/sharp#avoid-premultiply-for-overlay-without-alpha",
     "text-to-svg": "^3.0.1"
   }
 }
