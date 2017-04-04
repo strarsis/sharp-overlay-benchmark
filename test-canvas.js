@@ -4,8 +4,8 @@ var Promise             = require('bluebird'),
     fs                  = Promise.promisifyAll(require('fs')),
     globAsync           = Promise.promisify(require('glob')),
 
-    Canvas              = require('canvas'), 
-    Image               = Canvas.Image, 
+    Canvas              = require('canvas'),
+    Image               = Canvas.Image,
     canvasLoadFile      = require('./lib/canvas-load-file'),
     canvasToBufferAsync = require('./lib/canvas-to-buffer-async'),
 
