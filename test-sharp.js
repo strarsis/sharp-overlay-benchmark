@@ -16,7 +16,7 @@ var inputDir = './input',
     tHeight  = 300,
     rows     =   9,
     cols     =   9,
-    chnls    =   4;
+    chnls    =   3;
 
 
 return globAsync(inputDir + '/*.jpg')
